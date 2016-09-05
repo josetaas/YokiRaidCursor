@@ -4,8 +4,7 @@ YokiRaidCursor = LibStub('AceAddon-3.0')
 YokiRaidCursor.Class = LibStub('MiddleClass'):GetClassObject()
 
 function YokiRaidCursor:OnInitialize()
-    local frameRepository, frames, cursorFrame, cursorTexture, x, y, first
-    local mbl, mbr
+    local frameRepository, frames, mbr, mbl
 
     self.Strings('en')
     
