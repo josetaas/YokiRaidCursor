@@ -12,7 +12,7 @@ function CursorTest:Move_WithValidFrame_CentersOnFrame()
 
     mockCursorFrame = Test:GetMock()
     mockFrame = Test:GetMock()
-    cursor = YokiRaidCursor.Cursor(mockCursorFrame)
+    cursor = YokiRaidCursor.Core.Cursor(mockCursorFrame)
 
     cursor:Move(mockFrame)
 
@@ -25,7 +25,7 @@ function CursorTest:Move_WithValidFrame_SetsTargetToFrame()
 
     mockCursorFrame = Test:GetMock()
     mockFrame = Test:GetMock()
-    cursor = YokiRaidCursor.Cursor(mockCursorFrame)
+    cursor = YokiRaidCursor.Core.Cursor(mockCursorFrame)
 
     cursor:Move(mockFrame)
 

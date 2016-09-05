@@ -29,7 +29,7 @@ function GridTest:SetUp()
 
     local frames = { self.f1, self.f2, self.f3, self.f4, self.f5 }
 
-    self.grid = YokiRaidCursor.Grid(frames)
+    self.grid = YokiRaidCursor.Core.Grid(frames)
 end
 
 function GridTest:GetNeighbor_WithAdjacentHorizontalFrames_ReturnsNeighbor()

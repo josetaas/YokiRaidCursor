@@ -5,7 +5,7 @@ local FrameRepositoryTest = YokiRaidCursor.Class('FrameRepositoryTest', Test)
 function FrameRepositoryTest:Initialize()
     self:Register(self.Get_WithValidNameOfFrame_ReturnsFrame)
 
-    self.frameRepository = YokiRaidCursor.Repositories.FrameRepository()
+    self.frameRepository = YokiRaidCursor.Core.Repositories.FrameRepository()
 end
 
 function FrameRepositoryTest:Get_WithValidNameOfFrame_ReturnsFrame()

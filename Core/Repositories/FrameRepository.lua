@@ -1,4 +1,4 @@
-local Repository = YokiRaidCursor.Repository
+local Repository = YokiRaidCursor.Core.Repository
 local FrameRepository = YokiRaidCursor.Class('FrameRepository', Repository)
 
 
@@ -7,4 +7,4 @@ function FrameRepository:Get(identifier)
 end
 
 
-YokiRaidCursor.Repositories.FrameRepository = FrameRepository
+YokiRaidCursor.Core.Repositories.FrameRepository = FrameRepository

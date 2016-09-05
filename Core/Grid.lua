@@ -1,6 +1,6 @@
 local Grid = YokiRaidCursor.Class('Grid')
 
-local GetPosition = YokiRaidCursor.Utilities.Frame.GetPosition
+local GetPosition = YokiRaidCursor.Core.Utilities.Frame.GetPosition
 
 function Grid:Initialize(frames)
     if (frames) then
@@ -163,4 +163,4 @@ function Grid:_GetFarthest(frame, direction)
     return current
 end
 
-YokiRaidCursor.Grid = Grid
+YokiRaidCursor.Core.Grid = Grid

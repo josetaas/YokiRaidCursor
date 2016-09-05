@@ -6,17 +6,17 @@ YokiRaidCursor.Class = LibStub('MiddleClass'):GetClassObject()
 function YokiRaidCursor:OnInitialize()
     local frameRepository, frames, mbr, mbl
 
-    self.Strings('en')
+    self.Core.Strings('en')
     
-    frameRepository = self.Repositories.FrameRepository()
+    frameRepository = self.Core.Repositories.FrameRepository()
 
     mbl = { frameRepository:Get('MultiBarLeft'):GetChildren() }
     mbr = { frameRepository:Get('MultiBarRight'):GetChildren() }
 
-    frames = self.Utilities.MergeTables(mbl, mbr)
+    frames = self.Core.Utilities.MergeTables(mbl, mbr)
 
-    self.grid = self.Grid(frames)
-    self.cursor = self.Cursor(nil, self.grid:GetFirst())
+    self.grid = self.Core.Grid(frames)
+    self.cursor = self.Core.Cursor(nil, self.grid:GetFirst())
 end
 
 function YokiRaidCursor:Up()

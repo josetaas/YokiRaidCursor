@@ -1,4 +1,3 @@
-
 local Strings = YokiRaidCursor.Class('Strings')
 
 
@@ -14,4 +13,4 @@ function Strings:Initialize(locale)
 end
 
 
-YokiRaidCursor.Strings = Strings
+YokiRaidCursor.Core.Strings = Strings

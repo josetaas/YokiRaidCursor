@@ -6,4 +6,4 @@ function Frame.GetPosition(frame)
     return l+w/2, b+h/2
 end
 
-YokiRaidCursor.Utilities.Frame = Frame
+YokiRaidCursor.Core.Utilities.Frame = Frame

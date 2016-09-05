@@ -41,4 +41,4 @@ function Cursor:CreateFrame()
 end
 
 
-YokiRaidCursor.Cursor = Cursor
+YokiRaidCursor.Core.Cursor = Cursor
