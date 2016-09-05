@@ -1,0 +1,24 @@
+## Interface: 70000
+## Title: YokiRaidCursor
+## Notes: Raid cursor designed for controller healing.
+## Version: 0.1
+
+Embeds.xml
+Main.lua
+
+Core/Strings.lua
+
+Core/Utilities/Utilities.lua
+Core/Utilities/Frame.lua
+
+Core/ChatCommandHandler.lua
+Core/Grid.lua
+Core/Cursor.lua
+
+Core/Repository.lua
+Core/Repositories/FrameRepository.lua
+
+Tests/Test.lua
+Tests/GridTest.lua
+Tests/CursorTest.lua
+Tests/FrameRepositoryTest.lua

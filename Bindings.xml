@@ -1,0 +1,14 @@
+<Bindings>
+    <Binding name="YOKIRAIDCURSOR_UP" header="YOKIRAIDCURSOR">
+        YokiRaidCursor:Up()
+    </Binding>
+    <Binding name="YOKIRAIDCURSOR_DOWN" header="YOKIRAIDCURSOR">
+        YokiRaidCursor:Down()
+    </Binding>
+    <Binding name="YOKIRAIDCURSOR_LEFT" header="YOKIRAIDCURSOR">
+        YokiRaidCursor:Left()
+    </Binding>
+    <Binding name="YOKIRAIDCURSOR_RIGHT" header="YOKIRAIDCURSOR">
+        YokiRaidCursor:Right()
+    </Binding>
+</Bindings>
