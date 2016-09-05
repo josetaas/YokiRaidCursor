@@ -4,7 +4,7 @@
 ## Version: 0.1
 
 Embeds.xml
-Main.lua
+YokiRaidCursor.lua
 
 Core/Core.lua
 Core/Strings.lua
